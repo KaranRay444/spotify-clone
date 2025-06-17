@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="option">
+                    <i class="fa-solid fa-house "></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="opt">
+                    <div class="lib-opt option ">
+                        <img src="./assets/library_icon.png" alt="library_icon" srcset="">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="box-c1">Create Your First Playlist</p>
+                    <p class="box-c2">it's easy we'll help you</p>
+                    <button class="box-btn">Create Playlist</button>
+                </div>
+                <div class="box">
+                    <p class="box-c1">Let's Find Some Poscasts to follow</p>
+                    <p class="box-c2">we'll keep you updated on new episodes</p>
+                    <button class="box-btn">Browse Podcasts</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="topbar">
+                <div class="topbar-i">
+                    <img src="./assets/backward_icon.png" alt="" srcset="">
+                    <img src="./assets/forward_icon.png" class="hide" srcset="">
+                </div>
+                <div class="topbar-opt ">
+                    <button class="box-btn to hide">Explore Premium</button>
+                    <button class="box-btn to dark"> <i class="fa-regular fa-circle-down"
+                            style="margin-right: 6px; height: 13px;"></i>Install App</button>
+                    <i class="fa-regular fa-user to"></i>
+                </div>
+
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card-item">
+                    <img src="./assets/card1img.jpeg" class="card-img" alt="" srcset="">
+                    <p class="tittle">Top 50-Global</p>
+                    <p class="desc">Your Daily Updates Of The Most Played...</p>
+                </div>
+            </div>
+            <h2>Trending Now Near You</h2>
+            <div class="card-container">
+                <div class="card-item">
+                    <img src="./assets/img2.jpg" class="card-img" alt="" srcset="">
+                    <p class="tittle">Laal Pari</p>
+                    <p class="desc">Honey Singh</p>
+                </div>
+                <div class="card-item">
+                    <img src="./assets/img1.jpg" class="card-img" alt="" srcset="">
+                    <p class="tittle">Papa Meri Jaan</p>
+                    <p class="desc">Sonu Nigam</p>
+                </div>
+                <div class="card-item">
+                    <img src="./assets/img3.jpg" class="card-img" alt="" srcset="">
+                    <p class="tittle">Jugrafiya</p>
+                    <p class="desc">Hrithik Roshan</p>
+                </div>
+                <div class="card-item">
+                    <img src="./assets/img4.jpg" class="card-img" alt="" srcset="">
+                    <p class="tittle">Dobara</p>
+                    <p class="desc">Ajay Devgan</p>
+                </div>
+                <div class="card-item">
+                    <img src="./assets/img5.jpg" class="card-img" alt="" srcset="">
+                    <p class="tittle">Ranjhan</p>
+                    <p class="desc">Unknown</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card-item">
+                    <img src="./assets/card5img.jpeg" class="card-img" alt="" srcset="">
+                    <p class="tittle">Top Global Songs</p>
+                    <p class="desc">Your Weekly Updates Of The Most Played...</p>
+                </div>
+                <div class="card-item">
+                    <img src="./assets/img9.jpg" class="card-img" alt="" srcset="">
+                    <p class="tittle">Trending In India</p>
+                    <p class="desc">Your Weekly Updates Of The Most Played...</p>
+                </div>
+                <div class="card-item">
+                    <img src="./assets/card6img.jpeg" class="card-img" alt="" srcset="">
+                    <p class="tittle">Top 50-India</p>
+                    <p class="desc">Your Daily Updates Of The Most Played...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="player">
+            <div class="music">
+                <div class="song">
+                    <img src="./assets/img5.jpg" alt="" srcset="">
+                </div>
+                <div class="mp">
+                    <p> Ranjhan</p>
+                    <p class="sing">Unknown</p>
+                </div>
+                <div class="ic">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-tv"></i>
+                </div>
+            </div>
+            <div class="player-1">
+                <div class="p-control">
+                    <img src="./assets/player_icon1.png" alt="" srcset="" class="p-icon">
+                    <img src="./assets/player_icon2.png" alt="" srcset="" class="p-icon">
+                    <img src="./assets/player_icon3.png" alt="" srcset="" class="p-icon"
+                        style="height: 2rem; opacity: 1;">
+                    <img src="./assets/player_icon4.png" alt="" srcset="" class="p-icon">
+                    <img src="./assets/player_icon5.png" alt="" srcset="" class="p-icon">
+                </div>
+                <div class="p-bar">
+                    <span class="ct">00:00</span>
+                    <input type="range" min="0" max="100" name="" class="progress">
+                    <span class="ct">03:00</span>
+                </div>
+            </div>
+            <div class="tools">
+                <div class="tools-icons x">
+                    <i class="fas fa-play x"></i>
+                    <i class="fas fa-microphone x"></i>
+                    <i class="fas fa-sliders-h x"></i>
+                    <i class="fas fa-video x"></i>
+                    <i class="fas fa-volume-up x"> <input type="range" min="0" max="100" name="" class="pbx">
+                    </i>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>
